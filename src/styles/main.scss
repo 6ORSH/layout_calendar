@@ -9,12 +9,9 @@ $calendar-width: ($day-size * $colums-count) + ($calendar-gap-size * ($colums-co
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   display: flex;
   flex-wrap: wrap;
   gap: $calendar-gap-size;
-
-  margin: 0 auto;
   padding: $calendar-padding;
   width: $calendar-width;
   &__day {
